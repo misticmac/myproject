@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Html&css</title>
+    <!-- убрали из поисковой системы -->
+    <meta name="robots" content="none">
+
+    <!-- Указали автора -->
+    <meta name="author" content="Artem Sorokin">
+    
+    <!-- Права защищены -->
+    <meta name="copyright" content="reserve">
+    
+    <!-- Что это за сайт? -->
+    <meta name="description" content="Мой сайт">
+    
+    <!-- Пару слов о сайте -->
+    <meta name="keywords" content="впадлу писать">
+    
+    <!-- Убрали фичу для айфонов -->
+    <meta name="format-detection" content="telephone=no">
+    
+    <!-- link`s -->
+
+    <link rel="stylesheet" href="normalize/normalize.css" type="text/css">
+    <link rel="stylesheet" href="style.css" type="text/css">
+
+</head>
+<body>
+
+        <div class="fullscreen-poster">
+            <div class="fullscreen-inner">
+                <div class="video-inner-fullscreen">
+                    <video autoplay muted loop>
+                        <source src="videos/forest.webm" type="video/webm">
+                        <source src="videos/forest.mp4" type="video/mp4">
+                    </video>
+                </div>
+            </div>
+        </div>
+
+        <div class="first">
+            <label>Hello world, today is:</label>
+            <input type="date" tabindex="1" name="hello-word" form="#" value="2022-04-09" min="2022-04-09">
+        </div>
+    
+        <div class="grid">
+            <div class="b1">1</div>
+            <div class="b2">2</div>
+            <div class="b3">3</div>
+            <div class="b4">4</div>
+            <div class="b5">5</div>
+            <div class="b6">6</div>
+        </div>
+
+        <div class="grid-nav">
+            <div class="grid-1">1</div>
+            <div class="grid-2">2</div>
+            <div class="grid-3">3</div>
+        </div>
+
+        <div class="maket">
+            <div class="header">header</div>
+            <div class="main">
+                <div class="article">article</div>
+                <div class="aside">aside</div>
+            </div>
+            <div class="footer">footer</div>
+        </div>
+
+        <div class="alan">
+            <div class="one">1</div>
+            <div class="two">2</div>
+            <div class="tri">3</div>
+        </div>
+
+        <div class="container">
+            <a href="#" class="class-btn">Кликни меня!</a>
+        </div>
+
+        <div class="items">
+            <div class="item">
+                <div class="item-container">
+                    <div class="item-body">
+                        <div class="video-inner">
+                            <video controls poster="../img/Layer 15.png" preload="auto">
+                                <source src="videos/forest.webm" type="video/webm">
+                                <source src="videos/forest.mp4" type="video/mp4">
+                            </video>
+                        </div>
+                        <div class="text">
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quidem quam ducimus magnam rerum ipsam vel neque? Consequatur porro eius, recusandae blanditiis aliquid id atque est inventore? Fuga explicabo sit vero?
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="item">
+                <div class="item-container">
+                    <div class="item-body">
+                        <div class="video-inner">
+                            <video controls poster="../img/Layer 15.png" preload="auto">
+                                <source src="videos/forest.webm" type="video/webm">
+                                <source src="videos/forest.mp4" type="video/mp4">
+                            </video>
+                        </div>
+                        <div class="text">
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quidem quam ducimus magnam rerum ipsam vel neque? Consequatur porro eius, recusandae blanditiis aliquid id atque est inventore? Fuga explicabo sit vero?
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="item">
+                <div class="item-container">
+                    <div class="item-body">
+                        <div class="video-inner">
+                            <video controls poster="../img/Layer 15.png" preload="auto">
+                                <source src="videos/forest.webm" type="video/webm">
+                                <source src="videos/forest.mp4" type="video/mp4">
+                            </video>
+                        </div>
+                        <div class="text">
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quidem quam ducimus magnam rerum ipsam vel neque? Consequatur porro eius, recusandae blanditiis aliquid id atque est inventore? Fuga explicabo sit vero?
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <textarea name="textarea" placeholder="Текст" required disabled maxlength="5" id="" cols="30" rows="10"></textarea>
+
+        <select name="select" id=""></select>
+
+        <div>
+            <input type="text" placeholder="Варианты текста" list="max">
+            <datalist id="max">
+                <option value="car" label="car"></option>
+                <option value="buy" label="buy" selected></option>
+                <option value="dog" label="Dog" disabled></option>
+            </datalist>
+        </div>
+
+        <details>
+            <summary>Открой</summary>
+            <hr>
+            <p>Молодец, открыл</p>
+        </details>
+
+        <p class="another-text">
+            home
+        </p>
+
+</body>
+</html>
